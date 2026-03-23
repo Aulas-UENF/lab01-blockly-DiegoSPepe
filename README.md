@@ -4,8 +4,8 @@
 
 Bem-vindo(a) à sua atividade prática de Lógica Computacional! Siga os passos abaixo para completar o desafio.
 
-**Nome do Aluno:** [Preencha seu nome aqui]
-**Matrícula:** [Preencha sua matrícula]
+**Nome do Aluno:** [Diego Souza Pepe]
+**Matrícula:** [20261100035]
 ---
 
 ## 🎯 Objetivo
@@ -42,17 +42,20 @@ Olhando para os blocos que você usou para resolver o jogo no nível 10, imagine
 *(Edite este arquivo e escreva suas respostas dos Passos 3 e 4 aqui embaixo. Lembre-se de colocar a imagem do Passo 2 dentro da pasta **/imagens** deste repositório)*
 
 ## 2. Evidência Visual (Screenshot)
-*Suba o screenshot da sua solução final (onde aparece "Você resolveu este nível!") para a pasta **/imagens** deste repositório.*
+Subi a imagem da print na pasta imagens.
 
 ## 3. Estratégia Utilizada
-*Explique com suas palavras como você resolveu o problema. Qual foi a lógica?*
-> Escreva aqui... Exemplo: Percebi que o padrão se repetia 3 vezes, então criei um bloco de função para desenhar a ponta da estrela e usei um loop...
-
+5 loops de avançar 50 e virar para a direita em 144° para formar apenas uma estrela e coloquei para o loop ser na cor amarela.
+3 loops que além de incluir o loop acima também envolve ações de movimento como levantar a caneta, avançar em 150 para chegar na altura correta, abaixar a caneta e virar a direita em 120° para formar as 3 estrelas.
+coloquei a cor branca.
+virei a esquerda em 90° a partir do ultimo ponto que meu desenho havia chego para projetar o desenho da lua do lado esquerdo, levantei a caneta e  coloquei avançar 100 com a intenção de alcançar o ponto de origem da lua e abaixei a caneta.
+criei um loop de repetição de 360 vezes avançando 50 e retornando 50 para voltar ao ponto de origem, porém sempre virando um 1° para esquerda com a finalidade de desenhar uma lua cheia.
+agora para redesenhar a lua em sua forma crescente, coloquei a cor preta, virei a direita em 120° e avançar 20 e repliquei o loop da lua cheia para assim criar um circulo menor e com isso formar uma lua crescente.
 ## 4. Desafio:
-**A)** Escreva aqui...
+**A)** 6 repetições do loop que desenha o hexágono e utilizando o ângulo de 60°
   
-**B)** Escreva aqui...
+**B)** Para que se crie 4 hexágonos distruibuidos em um círculo precisa separar um a cada 90°
   
-**C)** Escreva aqui...
+**C)** Para resolver a primeira dividi 360° pela quantidade de lados do hexágono:360/6=60°, para resolver a segunda dividi 360° de círculo completo pelo número de hexágonos totais da solitação que eram 4: 360/4=90°
 
 ---
